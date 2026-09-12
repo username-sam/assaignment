@@ -9,7 +9,7 @@ function describeValue(data){
         trueOrfalse = "falsy";
     }
 
-    return `"${type} | ${trueOrfalse}"`;
+    return `${type} | ${trueOrfalse}`;
 };
 
 //ans:2
@@ -38,7 +38,7 @@ function validateUsername(username){
     if(username.length <= 3){
         return "Too short";
     }else if (username.includes(" ")){
-        return "No spaces allowed";
+        return "No space allowed";
     }else if(username.includes("admin")){
         return "Reserved Word";
     }else{return "Available";}
