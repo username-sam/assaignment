@@ -10,7 +10,7 @@ function describeValue(data){
         trueOrfalse = "falsy";
     }
 
-    return `"${type} | ${trueOrfalse}"`;
+    return `${type} | ${trueOrfalse}`;
 }
 
 // console.log(describeValue("0"));
